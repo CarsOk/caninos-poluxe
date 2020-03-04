@@ -91,22 +91,24 @@ main{
 }
 
 .s-articulo1{
-  width: 300px;
+  width: 270px;
   height: 250px;
-  background-color:#3E5F45;
+  background-color:rgb(183, 199, 93);
   float: left;
   margin-bottom: 10px;
   border-radius: 10px 10px 0 0;
+  text-align: center;
+  padding: 15px;
   
 }
 
 .s-articulo2{
   width: 300px;
-  height: 340px;
+  height: 310px;
   background-color:#3E5F45;
   float: left;
-  margin-bottom: 10px;
-  
+  margin-bottom: 10px;  
+  background-image: url("Imagenes/comida-rápida1.jpg");
   
 }
 
@@ -125,6 +127,7 @@ main{
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
+  background-image: url("Imagenes/comida-rápida2.jpg");
 }
 .f-articulo2{
   width: 315px;
@@ -133,6 +136,7 @@ main{
   border-radius: 0 10px 0 0;
   float: left;
   margin-bottom: 10px;
+  background-image: url("Imagenes/comida-rápida3.jpg");
 }
 .f-articulo3{
   clear: both;
@@ -142,6 +146,7 @@ main{
   border-radius: 0 0 0 10px;
   float: left;
   margin-right: 10px;
+  background-image: url("Imagenes/comida-rápida4.jpg");
 }
 .f-articulo4{
   width: 315px;
@@ -149,6 +154,7 @@ main{
   background-color: whitesmoke;
   border-radius: 0 0 10px 0;
   float: left;
+  background-image: url("Imagenes/comida-rápida5.jpg"); 
 }
 .cabeza{
   width: 100%;
@@ -169,4 +175,53 @@ footer{
   font-weight: bold;
   color:  #8a7474;
   font-size: 12px;
+}
+
+.formulario{
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+label {
+  font-size: 15px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  margin-top: 5px;
+
+}
+input{
+  margin-bottom: 10px;
+}
+input:focus, textarea:focus {
+  border: 1px solid lightseagreen;
+}
+input, textarea {
+  margin-bottom: 25px;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; 
+ 
+}
+textarea{
+  resize: none;
+}
+#ingre{
+  width: 40px;
+  height: 30px;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+input[type = "submit"] {
+  margin-bottom: 0px;
+  background: #3cb18a;
+  color: #ffffff;
+}
+input[Type = "submit"]:hover{
+  background: #69d3b0;
+  cursor: pointer;
 }
